@@ -1,0 +1,13 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block site_title  %}Toshko's Blogs{% endblock %}</title>
+</head>
+<body>
+{% include 'partials/header.html' %}
+{% block site_content %}
+{% endblock %}
+</body>
+</html>
